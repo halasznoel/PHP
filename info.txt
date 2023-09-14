@@ -1,0 +1,12 @@
+Webserver
+	XAMPP
+	Wamp
+XAMPP indítása
+	c:\xampp\xampp-control.exe
+	Apache webserver:start
+	MySQL adatbázis:start
+Böngészőben tesztelés
+	127.0.0.1/phpmyadmin (mysql adatbázis kezelő felület)
+A webserver gyökere a c:\xampp\htdocs mappa
+	Itt létrehoztam a feladat1 mappát benne az index.html oldallal
+	127.0.0.1/feladat1 és megkapjuk az oldalt
