@@ -1,0 +1,5 @@
+$tol = 10;
+$ig = 20;
+
+//számítsa ki és írja ki paragrafusként a tol és ig között levő számok összegét
+//10+11+...+20, tetszőleges számokra működjön
