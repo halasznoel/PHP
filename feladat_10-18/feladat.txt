@@ -1,0 +1,6 @@
+Kell egy űrlap két jelszó mezővel és egy email címmel.
+Ha az elküld gombra kattintunk és a két jelszó nem egyezik meg vagy nincs az email címben @, jelenítsünk meg hibaüzenetet.
+
+strpos(miben,mit)// ha a miben tartalmazza a mitet akkkor azt adja eredményül, hogy hányadik helyen, 
+ha nem tartalmazza akkor false-t ad eredményül.
+
