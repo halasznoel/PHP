@@ -1,0 +1,14 @@
+for($i = 0; $i < sizeof($kaják); $i++)
+
+
+
+
+
+
+$kaják[5]
+
+$kaják[$i]
+
+$árak[$i]
+
+foreach ($kaják as $kaja)

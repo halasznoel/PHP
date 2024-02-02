@@ -1,0 +1,15 @@
+<form action="index.php" method="get">
+    
+    <table><tr><th>Étel</th><th>Ár</th><th>Megrendelem</th></tr>
+<tr><td>uborka saláta</td><td>500</td><td><input  type="radio" name="0"></td></tr>
+<tr><td>rántott szelet</td><td>3000</td><td><input  type="radio" name="1"></td></tr>
+<tr><td>főtt orja</td><td>1500</td><td><input  type="radio" name="2"></td></tr>
+<tr><td>sültkrumpli</td><td>1000</td><td><input  type="radio" name="3"></td></tr>
+<tr><td>céklalé</td><td>2000</td><td><input  type="radio" name="4"></td></tr>
+<tr><td>kovászos uborka</td><td>1500</td><td><input  type="radio" name="5"></td></tr>
+<tr><td>húsleves</td><td>1200</td><td><input  type="radio" name="6"></td></tr>
+<tr><td>paradicsomleves</td><td>800</td><td><input  type="radio" name="7"></td></tr>
+<tr><td>krumplis tészta</td><td>1600</td><td><input  type="radio" name="8"></td></tr>
+<tr><td>palacsinta</td><td>850</td><td><input  type="radio" name="9"></td></tr>
+<tr><td colspan = "3">A megrendelés értéke: 0 forint.</td></tr></table>    <input type="submit" value="Rendelések">
+    </form>

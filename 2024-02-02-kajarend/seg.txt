@@ -1,0 +1,2 @@
+$kaják=array('uborka saláta','rántott szelet','főtt orja','sültkrumpli','céklalé','kovászos uborka','húsleves','paradicsomleves','krumplis tészta','palacsinta');
+$árak=array(500,3000,1500,1000,2000,1500,1200,800,1600,850);
