@@ -1,0 +1,24 @@
+Egy tömbbe vegyen fel 5 terméket.
+Egy változóban tárolja el az 1000 értéket.
+
+Ez egy három eurós bolt, minden termék 1000 Ft-ba kerül.
+A tömb alapján a php generáljon le egy select elemet ahol kiválaszthatjuk, hogy mit veszünk.
+Egy beviteli mezőben jelenjen meg a termék ára ami a változóban van. Ha változik az ár legyen elég a változónak adott értéket megváltoztatni.
+Egy beviteli mezőbe lehessen beírni a vásárolt mennyiséget.
+Egy másik mezőben lehessen beállítani az árengedmény értékét százalékban.
+Az árengedmény értékét csak akkor vegye figyelembe a számoláskor, ha be van jelölve az 'Akarunk árengedményt' jelölőnégyzet.
+
+Ha rákattintunk az elküld gombra, akkor jelenjen meg egy címkében, hogy mennyit fizetünk a futárnál.
+
+A Rendelés gombra kattintás után a mezők őrizzék meg értéküket.
+
+Ha be akarom jelölni a jelölőnégyzetet:
+<input type="checkbox" checked>
+
+
+select elem aktális elemének beállítása:
+
+<select>
+<option>Zseblámba</option>
+<option selected>Macskapapucs</option>
+</select>
