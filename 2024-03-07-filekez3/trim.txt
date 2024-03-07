@@ -1,0 +1,8 @@
+$valami = "Pista\n";
+
+//A trim parancs levágja a szöveg elején és végén levő szóközöket meg \n
+$valami = trim($valami);
+
+echo $valami;
+echo $valami;
+echo $valami;

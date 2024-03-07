@@ -1,0 +1,5 @@
+Szeged Pista 500000
+Pest Feri 600000
+Szeged Olga 1000000
+Szeged Irma 400000
+Dóc Sanyi 60000
