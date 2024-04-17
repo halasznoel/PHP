@@ -1,0 +1,17 @@
+Űrlapon amit beírok tárolja el egy fájlban de csak akkor ha még nem volt benne.
+
+
+
+1. Megnézzük, hogy kaptunk-e adatot.
+
+2. Ha nem kaptunk adatot, akkor semmit sem csinálunk.
+
+3. Ha kaptunk adatot akkor:
+	a: fájlt betöltjük array-be
+		while(!feof())
+		a kiolvasott sort trimmeljük
+		a trimmelt értéket pusholjuk a tömbbe
+	b: megnézzük, hogy benne van-e az érték
+		1. Ha benne van, akkor semmit sem csinálunk
+		2. Ha nincs benne akkor beleírjuk (fwrite)
+	

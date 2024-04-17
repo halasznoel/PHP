@@ -1,0 +1,30 @@
+//tömb
+$adatok = [44,5,44,3,545,34,23,34,45,34];
+echo $adatok[4]."\n";
+
+$numbers = array(4,657,56,45,45,45,4,54,4,5,45);
+echo $numbers[1]."\n";
+
+//asszociatív tömb
+
+$fizetesek = [];
+
+//egy kulcshoz rendelünk értéket
+$fizetesek['sanyi'] = 500000;
+$fizetesek['béla'] = 450000;
+$fizetesek['andrás'] = 520000;
+
+$fizetesek['sanyi'] += 20000;
+
+echo $fizetesek['béla']."\n";
+
+if(isset($fizetesek['olga']))
+    echo $fizetesek['olga']."\n";
+else
+    echo "Olga még nincs!\n";
+
+//összes kulcs érték páros megszerzése
+
+foreach($fizetesek as $key => $value)
+    echo "$key fizetése $value forint.\n";
+  

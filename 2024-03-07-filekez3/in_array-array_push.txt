@@ -1,0 +1,32 @@
+
+
+$numbers = [];
+
+
+//tömb végéhez hozzáfűzés
+
+array_push($numbers,40,67);
+array_push($numbers,1);
+
+foreach($numbers as $number)
+    echo $number.",";
+
+
+echo "\n";
+
+//egy elem szerepel-e egy tömmben
+
+$a = 167;
+if(in_array($a,$numbers))
+    echo "$a szerepel a tömbben";
+else
+  echo "$a nem szerepel a tömbben";
+  
+    
+  
+
+
+  
+
+
+

@@ -1,0 +1,13 @@
+Az adatok.dat fájlból készítsünk statisztikát és jelenítsük meg, hogy az egyes szavak összesen hányszor fordulnak
+elő a fájlban.
+
+pl.
+
+sárga:5
+kék:4
+szilva:2
+
+
+
+egy szó csak egyszer szerepeljen
+a megoldásban használjuk a file soronkénti beolvasását, a trim parancsot és az asszociatív tömböt
